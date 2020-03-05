@@ -151,7 +151,7 @@ Click **Create** button on lower left side to create Machine Learning studio wor
     * Enter column name: `instant` , `detday`, `yr`, `casual`
 
  <p align="center">
-    <img src="Images/014-Select column data.png" width="80%" height="80%">
+    <img src="Images/014-Select Data column.png" width="80%" height="80%">
 
 * Click the **OK** check mark
 
