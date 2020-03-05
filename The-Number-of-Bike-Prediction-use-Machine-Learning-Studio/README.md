@@ -187,7 +187,7 @@ The values and the data types in the dataset are not actually altered; what chan
     * Enter column name: `Season` `mnth` `hr` `holiday` `weekday` `workingday` `weathersit`
 
 <p align="center">
-    <img src="Images/017=Select Column.png" width="80%" height="80%">
+    <img src="Images/017-Select Column.png" width="80%" height="80%">
 
 
 
