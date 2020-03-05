@@ -98,7 +98,7 @@ Click **Create** button on lower left side to create Machine Learning studio wor
 * Select **EXPERIMENT**, and then select **Blank Experimen**
 
 <p align="center">
-    <img src="Images/009-Create Experiment.png" width="80%" height="80%">
+    <img src="Images/009-create experiment.png" width="80%" height="80%">
 
 * Select the default experiment name at the top of the canvas and rename **Bike count Predict**
 
