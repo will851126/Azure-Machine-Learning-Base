@@ -172,7 +172,7 @@ The values and the data types in the dataset are not actually altered; what chan
 
 * Click the output port of the  **Select columns in Dataset**, drag to the input port of **Edit Metadata**
 <p align="center">
-    <img src="Images/015-edit metadata.png" width="80%" height="80%">
+    <img src="Images/015-Edit metadata.png" width="80%" height="80%">
 
 * Select **Edit Metadata**, and in the Properties pane to the right of the canvas, click **Launch column selector**
 
