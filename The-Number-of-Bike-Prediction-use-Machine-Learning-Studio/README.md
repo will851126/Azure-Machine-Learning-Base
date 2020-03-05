@@ -200,7 +200,7 @@ The values and the data types in the dataset are not actually altered; what chan
 * Fields:`Unchange`
 
 <p align="center">
-    <img src="images/016-Edit metadata.png" width="80%" height="80%">
+    <img src="Images/016-Edit metadata.png" width="80%" height="80%">
 
 * Click **RUN** under of the experiment
 ### Create training and test datasets
@@ -208,7 +208,7 @@ The values and the data types in the dataset are not actually altered; what chan
 * Find the **Split Data** module, drag it onto the canvas, and connect it to the **Edit Metadata** module
 
 <p align="center">
-    <img src="images/018-Split Data.png" width="80%" height="80%">
+    <img src="Images/018-Split Data.png" width="80%" height="80%">
 
 * in the Properties pane to the right of the canvas, click:
 
@@ -221,7 +221,7 @@ The values and the data types in the dataset are not actually altered; what chan
     * Stratified split:`False`
 
     <p align="center">
-    <img src="images/019-Split Data.png" width="80%" height="80%">
+    <img src="Images/019-Split Data.png" width="80%" height="80%">
 
 * Click **RUN**  under of the experiment
 
@@ -236,7 +236,7 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
 * select the **Linear Regression** module under the **Regression category**, and drag it to the experiment canvas
 
 <p align="center">
-    <img src="images/034-Regression.png" width="80%" height="80%">
+    <img src="Images/034-Regression.png" width="80%" height="80%">
 
 
 * Find and drag the Train Model module to the experiment canvas. Connect the output of the **Linear Regression** module to the left 
@@ -244,7 +244,7 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
 * Input of the Train Model module, and connect the output of the **Split Data**  to the right input of the **Train Model**
 
 <p align="center">
-    <img src="images/020-Train Model.png" width="80%" height="80%">
+    <img src="Images/020-Train Model.png" width="80%" height="80%">
 
 * Click the **Train Model**, click **Launch column selector** in the Properties pane  
 
@@ -253,12 +253,12 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
 * Select the **cnt** column in the column selector by moving it from the **Available columns** list to the **Selected columns list**
 
 <p align="center">
-    <img src="images/021-Select Prdict value.png" width="80%" height="80%">
+    <img src="Images/021-Select Prdict value.png" width="80%" height="80%">
 
 * **Run** the experiment
 
 <p align="center">
-    <img src="images/022-Run model.png" width="80%" height="80%">
+    <img src="Images/022-Run model.png" width="80%" height="80%">
 
 ### Score and evaluate the models
  Use the testing data that was separated out by the Split Data module to score our trained models. you can then compare the results of the two models to see which generated better results
@@ -275,7 +275,7 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
 
 * Connect the **test data output (right port) of the Split Data** module to the **right input port** of Score Model
 <p align="center">
-    <img src="images/023-Score.png" width="80%" height="80%">
+    <img src="Images/023-Score.png" width="80%" height="80%">
 
 * **Run** the experiment and view the output from the Score Model
 
@@ -285,7 +285,7 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
     <img src="Images/042-View.png" width="80%" height="80%">
 
 <p align="center">
-    <img src="images/024-Score.png" width="80%" height="80%">
+    <img src="Images/024-Score.png" width="80%" height="80%">
 
 * The output shows the predicted values for **cnt** and the known values from the test data
 
@@ -299,7 +299,7 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
 * Connect the output of the **Score Model**  to the **left input** of Evaluate Model
 
 <p align="center">
-    <img src="images/025-Evulate.png" width="80%" height="80%">
+    <img src="Images/025-Evulate.png" width="80%" height="80%">
 
 
 * **Run** the experiment
@@ -307,13 +307,13 @@ The **Train Model** in Azure Machine Learning Studio to train a classification o
 * View the output from the **Evaluate Model** , click the output port, and then select **Visualize**
 
 <p align="center">
-    <img src="images/012--View.png" width="80%" height="80%">
+    <img src="Images/012--View.png" width="80%" height="80%">
 
 <p align="center">
-    <img src="images/026-R^2.png" width="80%" height="80%">
+    <img src="Images/026-R^2.png" width="80%" height="80%">
 
 <p align="center">
-    <img src="images/027-Error.png" width="80%" height="80%">
+    <img src="Images/027-Error.png" width="80%" height="80%">
 
 
 *  Following statistics are shown for our model:
@@ -342,7 +342,7 @@ To get this model ready for deployment, you need to convert this training experi
 * Click **Set Up Web Service**,Select **Predicture Web Service**
 
 <p align="center">
-    <img src="images/028-Set up Web Service.png" width="80%" height="80%">
+    <img src="Images/028-Set up Web Service.png" width="80%" height="80%">
 
 
 * Modules that were used for training are removed:
@@ -360,7 +360,7 @@ To get this model ready for deployment, you need to convert this training experi
 * Web service input and Web service output modules are added
 
 <p align="center">
-    <img src="images/045-Deploy.png" width="80%" height="80%">
+    <img src="Images/045-Deploy.png" width="80%" height="80%">
 
 
 * **Run** the experiment
@@ -370,18 +370,18 @@ To get this model ready for deployment, you need to convert this training experi
 * Click **Deploy Web Service** below the canvas 
 
 <p align="center">
-    <img src="images/030-deploy.png" width="80%" height="80%">
+    <img src="Images/030-deploy.png" width="80%" height="80%">
 
 * Select **New Web Services Experience** 
 
 <p align="center">
-    <img src="images/031-Web Service.png" width="80%" height="80%">
+    <img src="Images/031-Web Service.png" width="80%" height="80%">
 
 
 * Transfers to the **Azure Machine Learning web services Deploy Experiment page**
 
 <p align="center">
-    <img src="images/032-Web Service.png" width="80%" height="80%">
+    <img src="Images/032-Web Service.png" width="80%" height="80%">
 
 
 ### Test  web service
@@ -393,7 +393,7 @@ To get this model ready for deployment, you need to convert this training experi
 * Click **Test Request-Response**
 
 <p align="center">
-    <img src="images/033-Test Web .png" width="80%" height="80%">
+    <img src="Images/033-Test Web .png" width="80%" height="80%">
 
 
 ### Clean up resources
