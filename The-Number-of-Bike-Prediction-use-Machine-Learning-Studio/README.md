@@ -143,8 +143,6 @@ Click **Create** button on lower left side to create Machine Learning studio wor
     <img src="Images/013-Select Data column.png" width="80%" height="80%">
 
 * click **Select Columns in Dataset** , and in the Properties pane to the right of the canvas, click **Launch column selector**.
-<p align="center">
-    <img src="Images/014-Select Data column.png" width="80%" height="80%">
 
 * In the **Select columns** dialog  Select **With Rules** 
     
