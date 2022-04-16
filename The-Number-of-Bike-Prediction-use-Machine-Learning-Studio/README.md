@@ -1,4 +1,4 @@
-#  The number of bilke count Predict use Machine Learning Studio
+#  The number of bike count Predict use Machine Learning Studio
 
 ## Scenario 
 In this Lab ,you build a solution using [Machine Learning Studio](https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio) that predict Bike count by  **Linear Regression model** for Bike Rental UCI dataset,This dataset contains the hourly and daily count of rental bikes between years 2011 and 2012 in Capital bikeshare system with the corresponding weather and seasonal information.
